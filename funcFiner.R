@@ -72,7 +72,7 @@ Kjfiner1_koivu <- function(dd, a=-5.3806, b1=3.0861)
 #
 # @alias dd diameter 
 #
-# @check diameter (0,20)
+# @check diameter (0,30)
 # @check species {2}
 #
 # @return DBM
@@ -89,8 +89,8 @@ Kofiner4 <- function(dd, a=5.5372, b1=0.1328)
 #
 # @alias dd diameter 
 #
-# @check diameter (0,20)
 # @check species {1,7}
+# @check diameter (0,20)
 #
 # @return DBM
 # @retvalcheck (0,50)
@@ -193,9 +193,9 @@ Nfiner4 <- function(dd, ss,
 # @alias dd diameter
 # @alias ss crownratio
 #
+# @check species {1,7}
 # @check crownratio (0,1)
 # @check diameter (0,20)
-# @check species {1,7}
 #
 # @return NM
 # @retvalcheck (0,100)
@@ -213,8 +213,8 @@ Nfiner3 <- function(dd, ss, a1=2.8966, a2=2.6514, a3=2.6905,
 #
 # @alias dd diameter
 #
-# @check diameter (0,20)
 # @check species {1,7,8}
+# @check diameter (0,20)
 #
 # @return NM
 # @retvalcheck (0,100)
@@ -233,8 +233,8 @@ Nfiner2_manty <- function(dd, a1=1.1906, a2=1.8862, a3=2.1337,
 #
 # @alias dd diameter
 #
+# @check species {3,4,5,6}
 # @check diameter (0,20)
-# @check species (3,6)
 #
 # @return NM
 # @retvalcheck (0,100)
@@ -272,9 +272,9 @@ Nfiner1 <- function(dd, a1=2.3958, a2=3.0319, a3=2.8450,
 # @alias dd diameter
 # @alias ss crownratio
 #
+# @check species {2}
 # @check crownratio (0,1)
 # @check diameter (0,40)
-# @check species {2}
 #
 # @return LBNM
 # @retvalcheck (0,1500)
@@ -293,7 +293,7 @@ Eonfiner4 <- function(dd, ss, a1=4.1857, b1=2.20822, b2=0.6252)
 # @alias ss crownratio
 #
 # @check crownratio (0,1)
-# @check diameter (0,30.5)
+# @check diameter (0, 30.5)
 # @check species {1,7}
 #
 # @return LBNM
@@ -328,7 +328,7 @@ Eonfiner2_manty  <-  function(dd, a1=3.0560)
 # @alias dd diameter
 #
 # @check diameter (0,30)
-# @check species (3,6)
+# @check species (3,4,5,6)
 #
 # @return LBNM
 # @retvalcheck (0,1500)
@@ -345,7 +345,7 @@ Eonfiner2_koivu <- function(dd, a1=3.3891)
 # @alias dd diameter
 #
 # @check diameter (0,30)
-# @check species {1,7,8}
+# @check species {1,7}
 #
 # @return LBNM
 # @retvalcheck (0,1500)
@@ -416,8 +416,8 @@ Kfiner2_manty  <-  function(dd, a1=-2.9847, b1=1.6874)
 #
 # @alias dd diameter
 #
+# @check species {3,4,5,6}
 # @check diameter (0,20)
-# @check species (3,6)
 #
 # @return BAM
 # @retvalcheck (0,1500)
@@ -436,7 +436,7 @@ Kfiner2_koivu  <-  function(dd, a1=-5.5507, b1=2.7731)
 # @check diameter (0,20)
 # @check species {1,7}
 #
-# @return BM
+# @return BAM
 # @retvalcheck (0,1500)
 Kfiner1  <-  function(dd, a1=-4.0168 , b1=2.0023)
 {
@@ -474,9 +474,9 @@ Rfiner4  <-  function(dd, hh, a1=-2.8414, b1=1.5541, b2=1.056)
 # @alias dd diameter
 # @alias hh height
 #
+# @check species {1,7}
 # @check diameter (0,30)
 # @check height (2,25)
-# @check species {1,7}
 #
 # @return BM
 # @retvalcheck (0,1500)
@@ -492,8 +492,8 @@ Rfiner3  <-  function(dd, hh, a1=-5.7103, b1=1.7256, b2=1.0241)
 #
 # @alias dd diameter
 #
+# @check species {3,4,5,6}
 # @check diameter (0,30)
-# @check species (3,6)
 #
 # @return BM
 # @retvalcheck (0,1500)
@@ -529,9 +529,9 @@ Rfiner2_manty  <-  function(dd, a1=-1.6475, b1=2.1064)
 # @alias dd diameter
 # @alias hh height
 #
+# @check species {1,7}
 # @check diameter (0,30)
 # @check height (2,25)
-# @check species {1,7}
 #
 # @return BM
 # @retvalcheck (0,1500)
