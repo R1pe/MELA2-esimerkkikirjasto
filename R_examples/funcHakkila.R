@@ -11,7 +11,7 @@ Kjhakkid_kuusi <- function(dd, a1=-7.0, b1=0.051, b2=1.33)
 
 # @param diameter
 # @alias dd diameter
-# @check species {1,(3,8)}
+# @check species {1,3,4,5,6,7,8}
 # @check diameter (1,45)
 # @retval STRM
 # @retvalcheck (0,500)
@@ -44,7 +44,7 @@ Kohakkid_manty <- function(dd, a1=-0.84, b1=0.0194)
 
 # @param diameter
 # @alias dd diameter
-# @check species {(3,6),8}
+# @check species {3,4,5,6,8}
 # @check diameter (1,45)
 # @retval DBM
 # @retvalcheck (0,10)
@@ -64,7 +64,7 @@ Kohakkid_koivu <- function(dd, a1=-0.07, b1=0.0040)
 # @retvalcheck (0,90)
 Nhakkidcr_kuusi <- function(dd,ss, a1=0.37, b1=1.592e-8, b2=4.73e-6)
 {
-    return(a1 + b1*( (dd*10)^3 )*ss*100 + b2*(dd*10)*(ss*100)^2)
+    return(a1 + b1*((dd*10)^3)*ss*100 + b2*(dd*10)*(ss*100)^2)
 }
 
 # @param diameter
@@ -118,7 +118,7 @@ Nhakkid_manty <- function(dd, a1=-7.47, b1=1.6975)
 Eonhakkidhcr <- function(dd, hh, ss,
                          a1=-12.4606, b1=2.73067, b2=1788.90, b3=0.01664)
 {
-    eonm <- exp( a1 + b1*log(dd*10) + b2/(hh*10)^2 + b3*ss*100)
+    eonm <- exp(a1 + b1*log(dd*10) + b2/(hh*10)^2 + b3*ss*100)
     return(eonm)
 }
 
@@ -130,7 +130,7 @@ Eonhakkidhcr <- function(dd, hh, ss,
 # @retvalcheck (0,250)
 Eonhakkid <- function(dd, a1=-10.7699, b1=2.6016)
 {
-    return( exp(a1 + b1*log(dd*10)) )
+    return(exp(a1 + b1*log(dd*10)))
 }
 
 # @param diameter
@@ -168,7 +168,7 @@ Eohakkidhcr_manty <- function(dd, hh, ss,
                               a1=-11.059, b1=2.56050, b2=0.0058932, b3=8.14e-5,
                               b4=1.13e-6)
 {
-    eom <- exp(a1 + b1*log(dd*10) - b2*( (hh*10) - (ss*100*hh*10)/100 ) + 
+    eom <- exp(a1 + b1*log(dd*10) - b2*((hh*10) - (ss*100*hh*10)/100) + 
                 b3*((dd*10)+180)*ss*100 + b4*(dd*10)*(ss*100)^2)
     return(eom)
 }
@@ -355,7 +355,7 @@ Keohakkid_manty <- function(dd, a1=-8.8027, b1=2.2475)
 Rhakki2_koivu <- function(dd, tt, vv, kk,
                           a1=335.64, b1=34.156, b2=138.5, b3=1.01)
 {
-  return( (vv-kk)*( (a1 + b1*log(tt) + b2/dd) * b3) )
+  return( (vv-kk) * ((a1 + b1*log(tt) + b2/dd) * b3) )
 }
 
 # @param diameter
