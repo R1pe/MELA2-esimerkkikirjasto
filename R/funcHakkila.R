@@ -3,7 +3,7 @@
 #' @alias dd diameter
 #' @check diameter (1,45)
 #' @check species {2}
-#' @retval STRM
+#' @return STRM
 #' @retvalcheck (0,500)
 #' @export
 Kjhakkid_kuusi <- function(dd, a1=-7.0, b1=0.051, b2=1.33)
@@ -16,7 +16,7 @@ Kjhakkid_kuusi <- function(dd, a1=-7.0, b1=0.051, b2=1.33)
 #' @alias dd diameter
 #' @check species {1,3,4,5,6,7,8}
 #' @check diameter (1,45)
-#' @retval STRM
+#' @return STRM
 #' @retvalcheck (0,500)
 #' @export
 Kjhakkid_muut <- function(dd, a1=-2.0, b1=0.039, b2=1.33)
@@ -29,7 +29,7 @@ Kjhakkid_muut <- function(dd, a1=-2.0, b1=0.039, b2=1.33)
 #' @alias dd diameter
 #' @check species {2}
 #' @check diameter (1,45)
-#' @retval DBM
+#' @return DBM
 #' @retvalcheck (0,10)
 #' @export
 Kohakkid_kuusi <- function(dd, a1=-0.62, b1=0.0134, b2=3.9e-8)
@@ -42,7 +42,7 @@ Kohakkid_kuusi <- function(dd, a1=-0.62, b1=0.0134, b2=3.9e-8)
 #' @alias dd diameter
 #' @check species {1,7}
 #' @check diameter (1,45)
-#' @retval DBM
+#' @return DBM
 #' @retvalcheck (0,10)
 #' @export
 Kohakkid_manty <- function(dd, a1=-0.84, b1=0.0194)
@@ -55,7 +55,7 @@ Kohakkid_manty <- function(dd, a1=-0.84, b1=0.0194)
 #' @alias dd diameter
 #' @check species {3,4,5,6,8}
 #' @check diameter (1,45)
-#' @retval DBM
+#' @return DBM
 #' @retvalcheck (0,10)
 #' @export
 Kohakkid_koivu <- function(dd, a1=-0.07, b1=0.0040)
@@ -71,7 +71,7 @@ Kohakkid_koivu <- function(dd, a1=-0.07, b1=0.0040)
 #' @check species {2}
 #' @check diameter (4,45)
 #' @check crownratio (0.1,0.9)
-#' @retval NM
+#' @return NM
 #' @retvalcheck (0,90)
 #' @export
 Nhakkidcr_kuusi <- function(dd,ss, a1=0.37, b1=1.592e-8, b2=4.73e-6)
@@ -87,7 +87,7 @@ Nhakkidcr_kuusi <- function(dd,ss, a1=0.37, b1=1.592e-8, b2=4.73e-6)
 #' @check species {1,7}
 #' @check diameter (4,45)
 #' @check crownratio (0.1,0.9)
-#' @retval NM
+#' @return NM
 #' @retvalcheck (0,90)
 #' @export
 Nhakkidcr_manty <- function(dd,ss, a1=-9.01, b1=1.8485, b2=0.0155)
@@ -100,7 +100,7 @@ Nhakkidcr_manty <- function(dd,ss, a1=-9.01, b1=1.8485, b2=0.0155)
 #' @alias dd diameter
 #' @check species {2}
 #' @check diameter (1,45)
-#' @retval NM
+#' @return NM
 #' @retvalcheck (0,90)
 #' @export
 Nhakkid_kuusi <- function(dd, a1=-9.03, b1=2.2204)
@@ -113,7 +113,7 @@ Nhakkid_kuusi <- function(dd, a1=-9.03, b1=2.2204)
 #' @alias dd diameter
 #' @check species {1,7}
 #' @check diameter (1,45)
-#' @retval NM
+#' @return NM
 #' @retvalcheck (0,90)
 #' @export
 Nhakkid_manty <- function(dd, a1=-7.47, b1=1.6975)
@@ -132,7 +132,7 @@ Nhakkid_manty <- function(dd, a1=-7.47, b1=1.6975)
 #' @check diameter (4,50)
 #' @check crownratio (0.1,0.9)
 #' @check height (3,29)
-#' @retval LBNM
+#' @return LBNM
 #' @retvalcheck (0,1000)
 #' @export
 Eonhakkidhcr <- function(dd, hh, ss,
@@ -147,7 +147,7 @@ Eonhakkidhcr <- function(dd, hh, ss,
 #' @alias dd diameter
 #' @check species {(3,6),8}
 #' @check diameter (1,45)
-#' @retval NM
+#' @return NM
 #' @retvalcheck (0,250)
 #' @export
 Eonhakkid <- function(dd, a1=-10.7699, b1=2.6016)
@@ -166,7 +166,7 @@ Eonhakkid <- function(dd, a1=-10.7699, b1=2.6016)
 #' @check diameter (4,50)
 #' @check crownratio (0.1,0.9)
 #' @check height (3,29)
-#' @retval LBNM
+#' @return LBNM
 #' @retvalcheck (0,90)
 #' @export
 Eohakkidhcr_kuusi <- function(dd, hh, ss,
@@ -187,7 +187,7 @@ Eohakkidhcr_kuusi <- function(dd, hh, ss,
 #' @check diameter (4,50)
 #' @check crownratio (0.1,0.9)
 #' @check height (3,29)
-#' @retval LBNM
+#' @return LBNM
 #' @retvalcheck (0,90)
 #' @export
 Eohakkidhcr_manty <- function(dd, hh, ss,
@@ -207,7 +207,7 @@ Eohakkidhcr_manty <- function(dd, hh, ss,
 #' @check species {2}
 #' @check diameter (1,45)
 #' @check height (1,30)
-#' @retval LBNM
+#' @return LBNM
 #' @retvalcheck (0,300)
 #' @export
 Eohakkidh_kuusi <- function(dd,hh, a1=0.4112, b1=0.00026724, b2=1.41e-6, b3=0.00043562)
@@ -224,7 +224,7 @@ Eohakkidh_kuusi <- function(dd,hh, a1=0.4112, b1=0.00026724, b2=1.41e-6, b3=0.00
 #' @check species {1,7}
 #' @check diameter (1,45)
 #' @check height (1,30)
-#' @retval LBNM
+#' @return LBNM
 #' @retvalcheck (0,300)
 #' @export
 Eohakkidh_manty <- function(dd,hh, a1=-5.2678, b2=3.4914, b3=1.9498, b4=47.454)
@@ -238,7 +238,7 @@ Eohakkidh_manty <- function(dd,hh, a1=-5.2678, b2=3.4914, b3=1.9498, b4=47.454)
 #' @alias dd diameter
 #' @check species {2}
 #' @check diameter (1,45)
-#' @retval LBM
+#' @return LBM
 #' @retvalcheck (0,250)
 #' @export
 Eohakkid_kuusi <- function(dd, a1=-3.71, b1=0.10229, b2=3.3e-6)
@@ -251,7 +251,7 @@ Eohakkid_kuusi <- function(dd, a1=-3.71, b1=0.10229, b2=3.3e-6)
 #' @alias dd diameter
 #' @check species {1,7}
 #' @check diameter (1,45)
-#' @retval LBM
+#' @return LBM
 #' @retvalcheck (0,250)
 #' @export
 Eohakkid_manty <- function(dd, a1=-9.3954, b1=2.3268)
@@ -267,7 +267,7 @@ Eohakkid_manty <- function(dd, a1=-9.3954, b1=2.3268)
 #' @check species {(3,6),8}
 #' @check diameter (1,45)
 #' @check crownratio (0.1,0.9)
-#' @retval DLNM
+#' @return DLNM
 #' @retvalcheck (0,300)
 #' @export
 Keonhakkidhcr <- function(dd, ss, a1=-9.0521, b1=2.0532, b2=5.498e-5)
@@ -280,7 +280,7 @@ Keonhakkidhcr <- function(dd, ss, a1=-9.0521, b1=2.0532, b2=5.498e-5)
 #' @alias dd diameter
 #' @check species {(3,6),8}
 #' @check diameter (1,45)
-#' @retval DLNM
+#' @return DLNM
 #' @retvalcheck (0,300)
 #' @export
 Keonhakkid <- function(dd, a1=-10.2692, b1=2.5124)
@@ -299,7 +299,7 @@ Keonhakkid <- function(dd, a1=-10.2692, b1=2.5124)
 #' @check diameter (1,45)
 #' @check crownratio (0.1,0.9)
 #' @check height (1,30)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkidhcr_kuusi <- function(dd, hh, ss, a1=-9.3308, b1=2.2742, b2=872.51, b3=0.013594)
@@ -319,7 +319,7 @@ Keohakkidhcr_kuusi <- function(dd, hh, ss, a1=-9.3308, b1=2.2742, b2=872.51, b3=
 #' @check diameter (1,45)
 #' @check crownratio (0.1,0.9)
 #' @check height (1,30)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkidhcr_manty <- function(dd, hh, ss, a1=-10.230, b1=2.5478, b2=0.0050869, b3=0.0057087)
@@ -336,7 +336,7 @@ Keohakkidhcr_manty <- function(dd, hh, ss, a1=-10.230, b1=2.5478, b2=0.0050869, 
 #' @check species {2}
 #' @check diameter (1,45)
 #' @check height (1,30)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkidh_kuusi <- function(dd,hh, a1=0.4866, b1=0.00035026, b2=1.35e-6, b3=0.00042424)
@@ -353,7 +353,7 @@ Keohakkidh_kuusi <- function(dd,hh, a1=0.4866, b1=0.00035026, b2=1.35e-6, b3=0.0
 #' @check species {1,7}
 #' @check diameter (1,45)
 #' @check height (1,30)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkidh_manty <- function(dd,hh, a1=-9.7486, b1=0.0016023, b2=2.5600, b3=0.0063173)
@@ -366,7 +366,7 @@ Keohakkidh_manty <- function(dd,hh, a1=-9.7486, b1=0.0016023, b2=2.5600, b3=0.00
 #' @alias dd diameter
 #' @check species {2}
 #' @check diameter (1,45)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkid_kuusi <- function(dd, a1=-4.34, b1=0.11571, b2=3.34e-6)
@@ -379,7 +379,7 @@ Keohakkid_kuusi <- function(dd, a1=-4.34, b1=0.11571, b2=3.34e-6)
 #' @alias dd diameter
 #' @check species {1,7}
 #' @check diameter (1,45)
-#' @retval DLBM
+#' @return DLBM
 #' @retvalcheck (0,300)
 #' @export
 Keohakkid_manty <- function(dd, a1=-8.8027, b1=2.2475)
@@ -401,7 +401,7 @@ Keohakkid_manty <- function(dd, a1=-8.8027, b1=2.2475)
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_koivu <- function(dd, tt, vv, kk,
@@ -428,7 +428,7 @@ Rhakki2_koivu <- function(dd, tt, vv, kk,
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_manty1 <- function(dd, hh, tt, vv, kk,
@@ -456,7 +456,7 @@ Rhakki2_manty1 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_manty2 <- function(dd, hh, tt, vv, kk,
@@ -484,7 +484,7 @@ Rhakki2_manty2 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_manty3 <- function(dd, hh, tt, vv, kk,
@@ -512,7 +512,7 @@ Rhakki2_manty3 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_kuusi1 <- function(dd, hh, tt, vv, kk,
@@ -540,7 +540,7 @@ Rhakki2_kuusi1 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,250)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki2_kuusi2 <- function(dd, hh, tt, vv, kk,
@@ -564,7 +564,7 @@ Rhakki2_kuusi2 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_koivu <- function(dd, tt, vv, kk,
@@ -591,7 +591,7 @@ Rhakki1_koivu <- function(dd, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_manty1 <- function(dd, hh, tt, vv, kk,
@@ -622,7 +622,7 @@ Rhakki1_manty1 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_manty2 <- function(dd, hh, tt, vv, kk,
@@ -651,7 +651,7 @@ Rhakki1_manty2 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_manty3 <- function(dd, hh, tt, vv, kk,
@@ -679,7 +679,7 @@ Rhakki1_manty3 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_kuusi1 <- function(dd, hh, tt, vv, kk,
@@ -710,7 +710,7 @@ Rhakki1_kuusi1 <- function(dd, hh, tt, vv, kk,
 #' @check age (10,35)
 #' @check volume (0,0.5)
 #' @check knotbarkcorrection (0,0.1)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Rhakki1_kuusi2 <- function(dd, hh, tt, vv, kk,
@@ -734,7 +734,7 @@ Rhakki1_kuusi2 <- function(dd, hh, tt, vv, kk,
 #' @check diameter (5,50)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_koivu <- function(dd, tt, vv,
@@ -758,7 +758,7 @@ Krhakki2_koivu <- function(dd, tt, vv,
 #' @check height (0,25)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BM
+#' @return BM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_manty1 <- function(dd, hh, tt, vv,
@@ -784,7 +784,7 @@ Krhakki2_manty1 <- function(dd, hh, tt, vv,
 #' @check height (0,25)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_manty2 <- function(dd, hh, tt, vv,
@@ -810,7 +810,7 @@ Krhakki2_manty2 <- function(dd, hh, tt, vv,
 #' @check height (0,25)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_manty3 <- function(dd, hh, tt, vv,
@@ -836,7 +836,7 @@ Krhakki2_manty3 <- function(dd, hh, tt, vv,
 #' @check height (0,25)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_kuusi1 <- function(dd, hh, tt, vv,
@@ -862,7 +862,7 @@ Krhakki2_kuusi1 <- function(dd, hh, tt, vv,
 #' @check height (0,25)
 #' @check age (2,200)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki2_kuusi2 <- function(dd, hh, tt, vv,
@@ -884,7 +884,7 @@ Krhakki2_kuusi2 <- function(dd, hh, tt, vv,
 #' @check diameter (1,8)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_koivu <- function(dd, tt, vv,
@@ -908,7 +908,7 @@ Krhakki1_koivu <- function(dd, tt, vv,
 #' @check height (2.5,7.4)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_manty3 <- function(dd, hh, tt, vv,
@@ -934,7 +934,7 @@ Krhakki1_manty3 <- function(dd, hh, tt, vv,
 #' @check height (2.5,7.4)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_manty2 <- function(dd, hh, tt, vv,
@@ -960,7 +960,7 @@ Krhakki1_manty2 <- function(dd, hh, tt, vv,
 #' @check height (2.5,7.4)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_manty1 <- function(dd, hh, tt, vv,
@@ -986,7 +986,7 @@ Krhakki1_manty1 <- function(dd, hh, tt, vv,
 #' @check height (2.5,7.4)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_kuusi2 <- function(dd, hh, tt, vv,
@@ -1012,7 +1012,7 @@ Krhakki1_kuusi2 <- function(dd, hh, tt, vv,
 #' @check height (2.5,7.4)
 #' @check age (10,35)
 #' @check volume (0,0.5)
-#' @retval BABM
+#' @return BABM
 #' @retvalcheck (0,1500)
 #' @export
 Krhakki1_kuusi1 <- function(dd,hh,tt,vv,

@@ -3,7 +3,7 @@
 #' @param c parameter c
 #' @alias b c
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }
@@ -18,12 +18,12 @@ ChkRetVals_2_F0 <- function(a,b)
 #' @param c parameter c
 #' @check a (0,)
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }
 #' @retvalcheck xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y (20,)
 #' }
@@ -40,12 +40,12 @@ ChkRetVals_2_F1 <- function(a,c)
 #' @check a (2,5)
 #' @check c (0,)
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }
 #' @retvalcheck xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y (20,)
 #' }
@@ -62,7 +62,7 @@ ChkRetVals_2_F2 <- function(a,b)
 #' @check a (1,5)
 #' @check c (0,)
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }
@@ -84,12 +84,12 @@ ChkRetVals_2_F3 <- function(a,b)
 #' @check a {1}
 #' @check c (-1,1)
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }
 #' @retvalcheck xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y (20,)
 #' }

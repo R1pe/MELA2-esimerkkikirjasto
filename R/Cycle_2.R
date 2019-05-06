@@ -4,7 +4,7 @@
 #' @alias a x
 #' @alias b y
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item x
 #'    \item y
 #' }

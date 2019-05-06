@@ -10,7 +10,7 @@ s__cr <- function()
 #' @param a parameter a
 #' @param zz parameter zz
 #' @return xy
-#' \itemize {
+#' \itemize{
 #'    \item cc1
 #'    \item cc2
 #' }
