@@ -13,7 +13,7 @@ z_dec(a, zz)
 }
 \value{
 xy
-\itemize {
+\itemize{
    \item cc1
    \item cc2
 }

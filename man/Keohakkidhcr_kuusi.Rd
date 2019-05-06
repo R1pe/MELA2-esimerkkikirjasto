@@ -14,6 +14,9 @@ Keohakkidhcr_kuusi(dd, hh, ss, a1 = -9.3308, b1 = 2.2742,
 
 \item{height}{height of the tree}
 }
+\value{
+DLBM
+}
 \description{
 funcHakkila Keohakkidhcr_kuusi
 }

@@ -9,6 +9,9 @@ Eonhakkid(dd, a1 = -10.7699, b1 = 2.6016)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+NM
+}
 \description{
 funcHakkila Eonhakkid
 }

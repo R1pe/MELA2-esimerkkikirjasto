@@ -12,6 +12,9 @@ Eohakkidh_manty(dd, hh, a1 = -5.2678, b2 = 3.4914, b3 = 1.9498,
 
 \item{height}{height of the tree}
 }
+\value{
+LBNM
+}
 \description{
 funcHakkila Eohakkidh_manty
 }

@@ -16,6 +16,9 @@ Rhakki2_koivu(dd, tt, vv, kk, a1 = 335.64, b1 = 34.156, b2 = 138.5,
 
 \item{knotbarkcorrection}{knot-bark correction term}
 }
+\value{
+BM
+}
 \description{
 funcHakkila Rhakki2_koivu
 }

@@ -18,6 +18,9 @@ Rhakki2_manty3(dd, hh, tt, vv, kk, a1 = 341.77, b1 = 92.93, b2 = 193,
 
 \item{knotbarkcorrection}{knot-bark correction term}
 }
+\value{
+BM
+}
 \description{
 funcHakkila Rhakki2_manty3
 }

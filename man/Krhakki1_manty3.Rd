@@ -16,6 +16,9 @@ Krhakki1_manty3(dd, hh, tt, vv, a1 = 381.63, b1 = 27.43, b2 = 62.44,
 
 \item{volume}{volume of the tree}
 }
+\value{
+BABM
+}
 \description{
 funcHakkila Krhakki1_manty3
 }

@@ -9,6 +9,9 @@ Keohakkid_manty(dd, a1 = -8.8027, b1 = 2.2475)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+DLBM
+}
 \description{
 funcHakkila Keohakkid_manty
 }

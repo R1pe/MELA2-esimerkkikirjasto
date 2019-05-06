@@ -9,6 +9,9 @@ Keonhakkid(dd, a1 = -10.2692, b1 = 2.5124)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+DLNM
+}
 \description{
 funcHakkila Keonhakkid
 }

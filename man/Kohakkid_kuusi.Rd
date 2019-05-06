@@ -9,6 +9,9 @@ Kohakkid_kuusi(dd, a1 = -0.62, b1 = 0.0134, b2 = 3.9e-08)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+DBM
+}
 \description{
 funcHakkila Kohakkid_kuusi
 }

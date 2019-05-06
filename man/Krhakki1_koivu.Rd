@@ -14,6 +14,9 @@ Krhakki1_koivu(dd, tt, vv, a1 = 379.99, b1 = 22.84, b2 = 2.771,
 
 \item{volume}{volume of the tree}
 }
+\value{
+BABM
+}
 \description{
 funcHakkila Krhakki1_koivu
 }

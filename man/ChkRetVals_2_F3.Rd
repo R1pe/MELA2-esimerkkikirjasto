@@ -13,7 +13,7 @@ ChkRetVals_2_F3(a, b)
 }
 \value{
 xy
-\itemize {
+\itemize{
    \item x
    \item y
 }

@@ -14,6 +14,9 @@ Eonhakkidhcr(dd, hh, ss, a1 = -12.4606, b1 = 2.73067, b2 = 1788.9,
 
 \item{height}{height of the tree}
 }
+\value{
+LBNM
+}
 \description{
 funcHakkila Eonhakkidhcr
 }

@@ -14,6 +14,9 @@ Eohakkidhcr_kuusi(dd, hh, ss, a1 = -9.821, b1 = 2.3031,
 
 \item{height}{height of the tree}
 }
+\value{
+LBNM
+}
 \description{
 funcHakkila Eohakkidhcr_kuusi
 }

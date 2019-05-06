@@ -9,6 +9,9 @@ Kohakkid_manty(dd, a1 = -0.84, b1 = 0.0194)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+DBM
+}
 \description{
 funcHakkila Kohakkid_manty
 }

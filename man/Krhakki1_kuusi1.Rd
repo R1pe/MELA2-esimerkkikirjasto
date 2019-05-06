@@ -17,6 +17,9 @@ Krhakki1_kuusi1(dd, hh, tt, vv, a1 = 307.21, b1 = 67.35, b2 = 0.27,
 
 \item{volume}{volume of the tree}
 }
+\value{
+BABM
+}
 \description{
 funcHakkila Krhakki1_kuusi1
 }

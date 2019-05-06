@@ -9,6 +9,9 @@ Kohakkid_koivu(dd, a1 = -0.07, b1 = 0.004)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+DBM
+}
 \description{
 funcHakkila Kohakkid_koivu
 }

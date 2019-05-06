@@ -18,6 +18,9 @@ Rhakki2_kuusi1(dd, hh, tt, vv, kk, a1 = 303.37, b1 = 67.95,
 
 \item{knotbarkcorrection}{knot-bark correction term}
 }
+\value{
+BM
+}
 \description{
 funcHakkila Rhakki2_kuusi1
 }

@@ -12,6 +12,9 @@ Keohakkidh_manty(dd, hh, a1 = -9.7486, b1 = 0.0016023, b2 = 2.56,
 
 \item{height}{height of the tree}
 }
+\value{
+DLBM
+}
 \description{
 funcHakkila Keohakkidh_manty
 }

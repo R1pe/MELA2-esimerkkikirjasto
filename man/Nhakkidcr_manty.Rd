@@ -11,6 +11,9 @@ Nhakkidcr_manty(dd, ss, a1 = -9.01, b1 = 1.8485, b2 = 0.0155)
 
 \item{crownratio}{crownratio of the tree}
 }
+\value{
+NM
+}
 \description{
 funcHakkila Nhakkidcr_manty
 }

@@ -9,6 +9,9 @@ Nhakkid_kuusi(dd, a1 = -9.03, b1 = 2.2204)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+NM
+}
 \description{
 funcHakkila Nhakkid_kuusi
 }

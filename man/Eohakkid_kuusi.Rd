@@ -9,6 +9,9 @@ Eohakkid_kuusi(dd, a1 = -3.71, b1 = 0.10229, b2 = 3.3e-06)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+LBM
+}
 \description{
 funcHakkila Eohakkid_kuusi
 }

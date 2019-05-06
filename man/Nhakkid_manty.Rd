@@ -9,6 +9,9 @@ Nhakkid_manty(dd, a1 = -7.47, b1 = 1.6975)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+NM
+}
 \description{
 funcHakkila Nhakkid_manty
 }

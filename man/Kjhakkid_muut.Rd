@@ -9,6 +9,9 @@ Kjhakkid_muut(dd, a1 = -2, b1 = 0.039, b2 = 1.33)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+STRM
+}
 \description{
 funcHakkila Kjhakkid_muut
 }

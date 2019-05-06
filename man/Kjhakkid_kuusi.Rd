@@ -9,6 +9,9 @@ Kjhakkid_kuusi(dd, a1 = -7, b1 = 0.051, b2 = 1.33)
 \arguments{
 \item{diameter}{mean diameter of the tree}
 }
+\value{
+STRM
+}
 \description{
 funcHakkila Kjhakkid_kuusi
 }

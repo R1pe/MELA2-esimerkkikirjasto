@@ -11,6 +11,9 @@ Keonhakkidhcr(dd, ss, a1 = -9.0521, b1 = 2.0532, b2 = 5.498e-05)
 
 \item{crownratio}{crownratio of the tree}
 }
+\value{
+DLNM
+}
 \description{
 funcHakkila Keonhakkidhcr
 }

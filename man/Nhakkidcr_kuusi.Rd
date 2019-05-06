@@ -11,6 +11,9 @@ Nhakkidcr_kuusi(dd, ss, a1 = 0.37, b1 = 1.592e-08, b2 = 4.73e-06)
 
 \item{crownratio}{crownratio of the tree}
 }
+\value{
+NM
+}
 \description{
 funcHakkila Nhakkidcr_kuusi
 }

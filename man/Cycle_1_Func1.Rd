@@ -13,7 +13,7 @@ Cycle_1_Func1(a, b)
 }
 \value{
 xy
-\itemize {
+\itemize{
    \item x
    \item y
 }
