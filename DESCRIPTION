@@ -1,0 +1,12 @@
+Package: esimerkkikirjasto
+Type: Package
+Title: This package serves as a demolibrary for the testing of MELA2 project
+Version: 0.1.0
+Author: Daniel Melander
+Maintainer: Daniel Melander <daniel.melander@luke.fi>
+Description: One of MELA2 components is a R-package also called the function library.
+  This package serves as a demolibary for testing how the other components interact with the libarary. 
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
