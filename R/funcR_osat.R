@@ -11,6 +11,7 @@
 #' @check wastebarkvolume (0, 0.06)
 #' @return BRWM mass of the bark in wastewood
 #' @retvalcheck (0, 70)
+#' @export
 Khukka <- function(BAM,kk,kw)
 {
   return((kw/kk)*BAM)
@@ -29,6 +30,7 @@ Khukka <- function(BAM,kk,kw)
 #' @check barkvolumetopfibre (0, 0.06)
 #' @return BRTM latvakuitupuun kuoren massa
 #' @retvalcheck (0,70)
+#' @export
 Klatvak <- function(BAM,kk,kt)
 {
   return((kt/kk)*BAM)
@@ -47,6 +49,7 @@ Klatvak <- function(BAM,kk,kt)
 #' @check stemfiberbarkvolume (0, 0.06)
 #' @return BRWM mass of the bark in stem fiber tree
 #' @retvalcheck (0,70)
+#' @export
 Krunkok <- function(BAM,kk,kp)
 {
   return((kp/kk)*BAM)
@@ -65,6 +68,7 @@ Krunkok <- function(BAM,kk,kp)
 #' @check timbervolume (0, 0.06)
 #' @return BRSM tukkipuun kuoren massa
 #' @retvalcheck (0,70)
+#' @export
 Ktukki <- function(BAM,kk,ks)
 {
   return((ks/kk)*BAM)
@@ -83,6 +87,7 @@ Ktukki <- function(BAM,kk,ks)
 #' @check unbarkedvolumewastewood (0, 0.3)
 #' @return BATM kuorellisen latvakuitupuun massa
 #' @retvalcheck (0,500)
+#' @export
 Krhukka <- function(BABM,vv,vw)
 {
   return((vw/vv)*BABM)
@@ -101,6 +106,7 @@ Krhukka <- function(BABM,vv,vw)
 #' @check unbarkedvolumetopfiber (0, 0.3)
 #' @return BATM kuorellisen latvakuitupuun massa
 #' @retvalcheck (0,1500)
+#' @export
 Krlatvak <- function(BABM,vv,vt)
 {
   return((vt/vv)*BABM)
@@ -119,6 +125,7 @@ Krlatvak <- function(BABM,vv,vt)
 #' @check unbarkedvolumetrunkfiber (0, 0.3)
 #' @return BAPM kuorellinen runkokuitupuun massa
 #' @retvalcheck (0,1500)
+#' @export
 Krrunkok <- function(BABM,vv,vp)
 {
   return((vp/vv)*BABM)
@@ -137,6 +144,7 @@ Krrunkok <- function(BABM,vv,vp)
 #' @check unbarkedvolumetimber (0, 0.3)
 #' @return BASM kuorellisen tukkipuun massa
 #' @retvalcheck (0,1500)
+#' @export
 Krtukki <- function(BABM,vv,vs)
 {
   return((vs/vv)*BABM)
@@ -161,6 +169,7 @@ Krtukki <- function(BABM,vv,vs)
 #' @check wastebarkvolume (0, 0.08)
 #' @return WBM kuorettoman hukkapuun massa
 #' @retvalcheck (0,500) 
+#' @export
 Hukka <- function(BM,vv,kk,vw,kw)
 {
   return( ((vw-kw)/(vv-kk)) * BM )
@@ -185,6 +194,7 @@ Hukka <- function(BM,vv,kk,vw,kw)
 #' @check barkvolumetopfibre (0, 0.08)
 #' @return TBM kuorettoman latvakuitupuun massa
 #' @retvalcheck (0, 1500)
+#' @export
 Latvak <- function(BM,vv,kk,vt,kt)
 {
   return( ((vt-kt)/(vv-kk)) * BM )
@@ -209,6 +219,7 @@ Latvak <- function(BM,vv,kk,vt,kt)
 #' @check stemfiberbarkvolume (0, 0.08)
 #' @return PBM kuorettoman runkokuitupuun massa
 #' @retvalcheck (0, 1500)
+#' @export
 Runkok <- function(BM,vv,kk,vp,kp)
 {
   return( ((vp-kp)/(vv-kk)) * BM )
@@ -233,6 +244,7 @@ Runkok <- function(BM,vv,kk,vp,kp)
 #' @check timbervolume (0, 0.08)
 #' @return SWTM
 #' @retvalcheck (0, 1500)
+#' @export
 Tukki <- function(BM,vv,kk,vs,ks)
 {
   return( ((vs-ks)/(vv-kk)) * BM )
