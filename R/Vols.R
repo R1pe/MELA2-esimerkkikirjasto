@@ -32,7 +32,7 @@ s_fvs <- function(v, b1=0.45)
 #' @export
 s_fks <- function(v, b1=0.05)
 {
-    return b1*v
+    return(b1*v)
 }
 
 #' @title Vols s_fvp
