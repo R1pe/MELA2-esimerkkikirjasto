@@ -1,0 +1,96 @@
+* mallien selosteen tulostus - mallin määrittelyalkio ja sen selitys
+*************************************************************************
+PRINT_DECLARATION
+#0 tekstiselitys
+* MALLI
+#1 mallin nimi
+#3 syöttötiedot
+#2 tulostiedot
+#4 mallin rajoitteet
+#5 mallin puutteet
+#6 mallin laatija ja vuosi
+#7 mallin versio
+#8 mallin versiohistoria 
+#9 mallin dokumentit
+#10 mallin testaaja
+*#11 mallin testausajankohta
+*#12 mallin testiaineisto
+*#13 mallin testaamisessa käytetyt testit
+*#14 mallin kehittämisideoita
+* OHJELMA
+*#15 I/O-tiedot
+*#16 kutsuttavat ohjelmat 
+#17 ohjelman kirjoittaja(t) 
+#18 ohjelman kirjoituspäivä
+#19 ohjelman versio
+#20 ohjelman versiohistoria
+#21 ohjelman dokumentit
+#22 ohjelman ylläpitäjä
+#23 ohjelman testaaja(t)
+#24 ohjelman testausajankohta
+#25 ohjelman testiaineisto
+#26 ohjelman testaamisessa käytetyt testit
+*#27 ohjelman testitulokset
+*#28 ohjelman kehittämisideoita
+
+
+*-#1 mallin nimi
+*-#3 syöttötiedot
+*-#2 tulostiedot
+*-#4 mallin laatija ja vuosi
+*-#5 ohjelman kirjoittaja 
+*-#6 ohjelman kirjoituspäivä
+*-#7 versio
+*-#8 mallin dokumentit
+
+* muuttujien selitykset 
+* - tuleeko sekaannuksia käyttäjäparametrien nimistä
+* - entä - luokkien selitykset - 
+* - ja - mitä kaikkea ovat muuttujien selitykset muissa yhteyksissä
+*************************************************************************
+ d#1 rinnankorkeusläpimitta#2 cm
+* - huom - koodien selitykset - testissä (sama) sps, po. omansa
+ s#1 puulaji#2 puulajit
+ h#1 pituus#2 m
+ a#1 biologinen ikä#2 vuosi
+ ad#1 rinnankorkeusikä#2 vuosi
+ cr#1 latvussuhde#2 0.x
+ hdom#1 valtapituus#2 m
+ k#1 kuoren tilavuus#2 m3
+ kp#1 runkokuitupuun kuoren tilavuus#2 m3
+ ks#1 tukkipuun kuoren tilavuus#2 m3
+ kt#1 latvakuitupuun kuoren tilavuus#2 m3
+ kw#1 hukkapuun kuoren tilavuus#2 m3
+ st#1 kasvupaikkatyyppi#2 stt
+ ts#1 lämpösumma#2 d.d.
+ v#1 kuorellisen rungon tilavuus#2 m3
+ vp#1 runkokuitupuun kuorellinen tilavuus#2 m3
+ vs#1 tukkipuun kuorellinen tilavuus#2 m3
+ vt#1 latvakuitupuun kuorellinen tilavuus#2 m3
+ vw#1 hukkapuun kuorellinen tilavuus#2 m3
+
+ AGM#1 puun maanpäällinen massa#2 kg
+ BABM#1 kuorellisen rungon massa#2 kg
+ BAM#1 rungon kuoren massa#2 kg
+ BAPM#1 kuorellinen runkokuitupuun massa#2 kg
+ BASM#1 kuorellisen tukkipuun massa#2 kg
+ BATM#1 kuorellisen latvakuitupuun massa#2 kg
+ BAWM#1 kuorellisen hukkapuun massa#2 kg
+ BM#1 runkopuun (kuoreton) massa#2 kg
+ BRPM#1 runkokuitupuun kuoren massa#2 kg
+ BRSM#1 tukkipuun kuoren massa#2 kg
+ BRTM#1 latvakuitupuun kuoren massa#2 kg
+ BRWM#1 hukkapuun kuoren massa#2 kg
+ DBM#1 kuolleiden ja elävien oksien massa#2 kg
+ DLBM#1 kuolleiden ja elävien oksien (neulaset/lehdet mukana) massa#2 kg
+ DLNM#1 kuolleiden ja elävien oksien (ilman neulasia/lehtiä) massa#2 kg
+ LBM#1 elävien oksien (neulaset/lehdet mukana) massa#2 kg
+ LBNM#1 elävien oksien (ilman neulasia/lehtiä) massa#2 kg
+ NM#1 neulasten massa#2 kg
+ PBM#1 kuorettoman runkokuitupuun massa#2 kg
+ RM#1 juurten massa#2 kg
+ STM#1 kannon massa#2 kg
+ STRM#1 kannon ja juurten massa#2 kg
+ SWTM#1 kuorettoman tukkipuun massa#2 kg
+ TBM#1 kuorettoman latvakuitupuun massa#2 kg
+ WBM#1 kuorettoman hukkapuun massa#2 kg
